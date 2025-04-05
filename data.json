@@ -1,0 +1,101 @@
+{
+    "destinations": [
+      {
+        "id": 1,
+        "name": "Fernando de Noronha Island",
+        "country": "Brasil",
+        "description": "A paradisiacal archipelago known for its environmental preservation and crystal clear beaches.",
+        "latitude": -3.8503,
+        "longitude": -32.4233,
+        "eco_rating": 5,
+        "image": "assets/images/noronha.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Torres del Paine National Park",
+        "country": "Chile",
+        "description": "One of the most impressive natural areas on the planet, with sustainable trails and unique biodiversity.",
+        "latitude": -51.2425,
+        "longitude": -73.5619,
+        "eco_rating": 4,
+        "image": "assets/images/torres_paine.jpg"
+      }
+    ],
+    "accommodations": [
+      {
+        "id": 1,
+        "name": "EcoLodge Noronha",
+        "destination_id": 1,
+        "type": "Sustainable Hotel",
+        "website": "https://ecolodgenoronha.com",
+        "features": ["Solar Energy", "Water Reuse", "Organic Food"],
+        "image": "assets/images/noronha2.jpeg"
+      },
+      {
+        "id": 2,
+        "name": "Torres Patagonia Camp",
+        "destination_id": 2,
+        "type": "Glamping",
+        "website": "https://torrespatagoniacamp.com",
+        "features": ["Sustainable Construction", "Low Carbon Footprint"],
+        "image": "images/patagonia_camp.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Green Village Bali",
+        "destination_id": 3,
+        "type": "Eco-Resort",
+        "website": "https://greenvillagebali.com",
+        "features": ["Bamboo Houses", "Solar Energy", "Reforestation"],
+        "image": "assets/images/green_village_bali.jpg"
+    }
+    
+    ],
+    "experiences": [
+      {
+        "id": 1,
+        "name": "Sustainable Diving",
+        "destination_id": 1,
+        "description": "Explore marine life with certified eco-tourism operators.",
+        "category": "Adventure",
+        "image": "images/mergulho.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Las Torres Lookout Trail",
+        "destination_id": 2,
+        "description": "One of the most famous trails in Patagonia, with spectacular landscapes.",
+        "category": "Trail",
+        "image": "images/trilha_torres.jpg"
+      }
+    ],
+    "transport_options": [
+      {
+        "id": 1,
+        "type": "Bicycle and Car Sharing",
+        "description": "Available in several cities to reduce CO₂ emissions.",
+        "image": "images/bike_share.jpg"
+      },
+      {
+        "id": 2,
+        "type": "Efficient Public Transport",
+        "description": "Electric bus and eco-friendly train options.",
+        "image": "images/public_transport.jpg"
+      }
+    ],
+    "weather_forecast": [
+      {
+        "destination_id": 1,
+        "temperature": 28,
+        "conditions": "Sunny",
+        "carbon_impact": "Low"
+      },
+      {
+        "destination_id": 2,
+        "temperature": 12,
+        "conditions": "Cloudy",
+        "carbon_impact": "Average"
+      }
+    ]
+  }
+  
