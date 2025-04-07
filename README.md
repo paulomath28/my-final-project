@@ -1,4 +1,4 @@
-**EcoTraveler – Sustainable and Smart Itineraries**
+# EcoTraveler – Sustainable and Smart Itineraries
 
 It is a final project prepared for BUYI as an assessment.
 
